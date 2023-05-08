@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+:root{
+    --white-color:#ffffff;    
+    --dark-color:#000000;   
+    --text-default:#001A43; 
+    --primary-color:#4c78da;
+    --secondary-color:#8C92AC;
+    --warning-color:#FFA07A;
+    --danger-color: #F28B7C;
+    --info-color: #63D1C4;
+    --success-color:#66BD50;
+    --blue-color:#87CEEB;
+    --light-color:#ebeef2;
+    --bg-light:#f6f7f9;
+    --border-color:#f6f7f9;
+    --code-error:#570000;
+
+    --alert-danger:#F27260;
+    --alert-success:#66BD50;
+    --alert-info:#C3C9D0;
+    --alert-warning:#EBBC46;
+    --alert-danger-light:#FFF1F1;
+    --alert-success-light:#F2FDF6;
+
+    --heading-color: #66BD50;
+    --border-color:#E3E9F0;    
+
+    --gray-100:#EBF0F5;
+    --gray-200:#E3E9F0;
+    --gray-300:#CFD8E1;
+    --gray-400:#AFB9C5;
+    --gray-500:#A3B0C0;
+    --gray-600:#84919F;
+    --gray-700:#5B6874;
+    --gray-800:#2F3943;
+    --gray-900:#1D2939;
+    
+    --rgb-white-colo: 255, 255, 255;
+    --rgb-dark-color:0, 0, 0;
+    --rgb-text-default:0, 25, 66; 
+    --rgb-primary-color:34, 139, 34;
+    --rgb-secondary-color:140, 146, 172;
+    --rgb-warning-color:255, 160, 122;
+    --rgb-danger-color:242, 139, 124;
+    --rgb-info-color: 99, 209, 196;
+    --rgb-success-color:102, 189, 80;
+    --rgb-blue-color:135, 206, 235;
+    --rgb-light-color:244, 249, 253;
+    --rgb-code-error:87, 0, 0;
+
+    --rgb-alert-danger:242, 114, 96;
+    --rgb-alert-success:102, 189, 80;
+    --rgb-alert-info:195, 201, 208;
+    --rgb-alert-warning:235, 188, 70;
+    --rgb-alert-danger-light:255, 241, 241;
+    --rgb-alert-success-light:242, 253, 246;
+
+    --rgb-heading-color: 102, 189, 80;
+    --rgb-border-color:227, 233, 240;    
+
+    --rgb-gray-100:235, 240, 245;
+    --rgb-gray-200:227, 233, 240;
+    --rgb-gray-300:207, 216, 225;
+    --rgb-gray-400:175, 185, 197;
+    --rgb-gray-500:163, 176, 192;
+    --rgb-gray-600:132, 145, 159;
+    --rgb-gray-700:91, 104, 116;
+    --rgb-gray-800:47, 57, 67;
+    --rgb-gray-900:29, 41, 57; 
+}

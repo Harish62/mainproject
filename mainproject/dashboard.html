@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title><!-- bootstrap 5 css -->
+	<link href="assets/plugins/bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet"><!-- bootstrap 5 icons -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css" rel="stylesheet">
+	<link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+	<div>
+		<div class="top-header">
+			<div class="container">
+				<div class="d-flex align-items-center">
+					<a class="navbar-brand" href="#"><img alt="logo img" class="logo-image" src="assets/images/logo.png"></a>
+					<div class="ms-auto d-flex">
+						<button aria-controls="offcanvasNavbar" class="navbar-toggler" data-bs-target="#offcanvasNavbar" data-bs-toggle="offcanvas" type="button"><span class="navbar-toggler-icon"> <span class="navbar-toggler-icon"></span></button>
+						<div class="search-form">
+							<form class="input-icon">
+								<div class="input-icon-addon">
+									<i class="bi bi-search-heart"></i>
+								</div><input class="form-control header-search" placeholder="Search&hellip;" tabindex="1" type="search">
+							</form>
+						</div>
+						<div class="dropdown show ms-auto">
+							<a aria-expanded="false" class="nav-link" data-bs-toggle="dropdown" href="#" role="button"><i class="bi bi-bell"></i></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a class="dropdown-item" href="#">Action</a>
+								</li>
+								<li>
+									<a class="dropdown-item" href="#">Another action</a>
+								</li>
+								<li>
+									<hr class="dropdown-divider">
+								</li>
+								<li>
+									<a class="dropdown-item" href="#">Something else here</a>
+								</li>
+							</ul>
+						</div>
+						<div class="dropdown show d-flex">
+							<a aria-expanded="false" class="nav-link" data-bs-toggle="dropdown" href="#" role="button"><i class="bi bi-chat-right-dots"></i></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a class="dropdown-item" href="#">2 new messages</a>
+								</li>
+								<li style="list-style: none; display: inline">
+									<hr>
+								</li>
+								<li>
+									<a class="dropdown-item" href="#">Action</a>
+								</li>
+								<li>
+									<a class="dropdown-item" href="#">Another action</a>
+								</li>
+								<li>
+									<hr class="dropdown-divider">
+								</li>
+								<li>
+									<a class="dropdown-item" href="#">Something else here</a>
+								</li>
+							</ul>
+						</div>
+						<div class="dropdown show d-flex">
+							<a aria-expanded="false" aria-controls="offcanvasProfile" class="nav-link" data-bs-target="#offcanvasProfile" data-bs-toggle="offcanvas" href="#" role="button">
+								<img alt="avatar" class="" src="assets/images/users/29.jpg">
+							</a>
+							<div aria-labelledby="offcanvasNavbarLabel" class="offcanvas offcanvas-profile offcanvas-end" id="offcanvasProfile" tabindex="-1">
+								<div class="offcanvas-header">
+								  <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5><button aria-label="Close" class="btn-close text-reset" data-bs-dismiss="offcanvas" type="button"></button>
+								</div>
+								<div class="offcanvas-body p-0">
+									<div class="user-profile w-100">
+										<div class="user-img text-center w-100">
+											<img src="assets/images/users/29.jpg" class="img-fluid" alt="profile-img" />
+											<div class="user-details">
+												<h6 class="fw-bold mb-1">Nikohole James</h6>
+												<small class="text-muted">E commerce Partner</small>
+											</div>
+										</div>
+										<div class="bg-light mt-4 rounded-0">
+											<div class="card-body p-4">
+												<div class="row">
+													<div class="col">
+														<h5 class="fw-bold">5,678</h5>
+														<small>Orders</small>
+													</div>
+													<div class="col">
+														<h5 class="fw-bold">15,678</h5>
+														<small>Products</small>
+													</div>
+													<div class="col">
+														<h5 class="fw-bold">$5678</h5>
+														<small>Revenue</small>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="p-4">
+											<div class="user-card d-flex align-items-center mb-4">
+												<div class="user-icon">
+													<i class="bi bi-people"></i>
+												</div>
+												<div class="user-card-details ms-4">
+													<div class="d-flex align-items-center">
+														<h5 class="fw-bold mb-1">345</h5>
+														<small class="text-danger ms-2"><i class="bi bi-caret-down"></i> <b>5%</b></small>
+													</div>
+													<small class="mb-0">New Customers</small>
+												</div>
+											</div>
+											<div class="user-card d-flex align-items-center mb-4">
+												<div class="user-icon">
+													<i class="bi bi-clock"></i>
+												</div>
+												<div class="user-card-details ms-4">
+													<div class="d-flex align-items-center">
+														<h5 class="fw-bold mb-1">19 mins</h5>
+														<small class="text-danger ms-2"><i class="bi bi-caret-down"></i> <b>5%</b></small>
+													</div>
+													<small class="mb-0">Average Weekly Orders</small>
+												</div>
+											</div>
+											<div class="user-card d-flex align-items-center mb-4">
+												<div class="user-icon">
+													<i class="bi bi-graph-up-arrow"></i>
+												</div>
+												<div class="user-card-details ms-4">
+													<div class="d-flex align-items-center">
+														<h5 class="fw-bold mb-1">345</h5>
+														<small class="text-success ms-2"><i class="bi bi-caret-up"></i> <b>15%</b></small>
+													</div>
+													<small class="mb-0">Average Weekly Sales</small>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<nav class="navbar navbar-expand-lg navbar-light bg-white p-0">
+			<div class="container">
+				<div aria-labelledby="offcanvasNavbarLabel" class="offcanvas offcanvas-end" id="offcanvasNavbar" tabindex="-1">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5><button aria-label="Close" class="btn-close text-reset" data-bs-dismiss="offcanvas" type="button"></button>
+                    </div>
+                    <div class="offcanvas-body p-0">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" href="#"><i class="bi bi-speedometer"></i> Dashboard</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#"><i class="bi bi-bar-chart"></i>Widgets</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a aria-expanded="false" class="nav-link" data-bs-toggle="dropdown" href="#" id="navbarDropdown" role="button"><i class="bi bi-file-earmark"></i>Pages</a>
+							<ul aria-labelledby="navbarDropdown" class="dropdown-menu">
+								<li>
+									<a class="dropdown-item" href="#">Action</a>
+								</li>
+								<li>
+									<a class="dropdown-item" href="#">Another action</a>
+								</li>
+								<li>
+									<hr class="dropdown-divider">
+								</li>
+								<li>
+									<a class="dropdown-item" href="#">Something else here</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#"><i class="bi bi-box"></i>Components</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#"><i class="bi bi-front"></i>Elements</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#"><i class="bi bi-graph-up-arrow"></i>Charts</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a aria-expanded="false" class="nav-link" data-bs-toggle="dropdown" href="#" id="navbarDropdown" role="button"><i class="bi bi-pencil-square"></i> Forms</a>
+							<ul aria-labelledby="navbarDropdown" class="dropdown-menu">
+								<li>
+									<a class="dropdown-item" href="#">Action</a>
+								</li>
+								<li>
+									<a class="dropdown-item" href="#">Another action</a>
+								</li>
+								<li>
+									<hr class="dropdown-divider">
+								</li>
+								<li>
+									<a class="dropdown-item" href="#">Something else here</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#"><i class="bi bi-globe"></i> Icons</a>
+						</li>
+					</ul>
+				</div>
+				</div>
+			</div>
+		</nav>
+		<div class="content-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 col-lg-6">
+						<div class="card mb-4">
+							<div class="card-header">
+								<h3 class="card-title">Basic List Group</h3>
+							</div>
+							<div class="card-body">
+								<ul class="list-group">
+									<li class="list-group-item">Cras justo odio</li>
+									<li class="list-group-item">Dapibus ac facilisis in</li>
+									<li class="list-group-item">Morbi leo risus</li>
+									<li class="list-group-item">Porta ac consectetur ac</li>
+									<li class="list-group-item">Vestibulum at eros</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-lg-6">
+						<div class="card mb-4">
+							<div class="card-header">
+								<h3 class="card-title">Active List Items</h3>
+							</div>
+							<div class="card-body">
+								<ul class="list-group">
+									<li class="list-group-item active">Cras justo odio</li>
+									<li class="list-group-item">Dapibus ac facilisis in</li>
+									<li class="list-group-item">Morbi leo risus</li>
+									<li class="list-group-item">Porta ac consectetur ac</li>
+									<li class="list-group-item">Vestibulum at eros</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">                    
+					<div class="col-sm-12 col-lg-6">
+						<div class="card mb-4">
+							<div class="card-header">
+								<h3 class="card-title">Order List</h3>
+							</div>
+							<div class="card-body">
+								<ul class="list-group list-group-numbered">
+									<li class="listorder list-group-item">Cras justo odio</li>
+									<li class="listorder list-group-item">Dapibus ac facilisis in</li>
+									<li class="listorder list-group-item">Morbi leo risus</li>
+									<li class="listorder list-group-item">Porta ac consectetur ac</li>
+									<li class="listorder list-group-item">Vestibulum at eros</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+                    <div class="col-sm-12 col-lg-6">
+                        <div class="card mb-4">
+                            <div class="card-header">
+                                <h3 class="card-title">List Group with Icons</h3>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item"><i aria-hidden="true" class="bi bi-check"></i>Cras justo odio</li>
+                                    <li class="list-group-item"><i aria-hidden="true" class="bi bi-check"></i>Dapibus ac facilisis in</li>
+                                    <li class="list-group-item"><i aria-hidden="true" class="bi bi-check"></i>Morbi leo risus</li>
+                                    <li class="list-group-item"><i aria-hidden="true" class="bi bi-check"></i>Porta ac consectetur ac</li>
+                                    <li class="list-group-item"><i aria-hidden="true" class="bi bi-check"></i>Vestibulum at eros</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">                    
+                    <div class="col-sm-12 col-lg-6">
+                        <div class="card mb-4">
+                            <div class="card-header">
+                                <h3 class="card-title">List Group color</h3>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item list-group-item-primary">Cras justo odio</li>
+                                    <li class="list-group-item list-group-item-info">Dapibus ac facilisis in</li>
+                                    <li class="list-group-item list-group-item-danger">Morbi leo risus</li>
+                                    <li class="list-group-item list-group-item-warning">Porta ac consectetur ac</li>
+                                    <li class="list-group-item list-group-item-success">Vestibulum at eros</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-6">
+                        <div class="card mb-4">
+                            <div class="card-header">
+                                <h3 class="card-title">Badges</h3>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">Primary list item <span class="badge bg-primary rounded-pill">14</span></li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">secondary list item <span class="badge bg-secondary rounded-pill">2</span></li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">Warning list item <span class="badge bg-warning rounded-pill">1</span></li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">Danger list item <span class="badge bg-danger rounded-pill">2</span></li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">Success list item <span class="badge bg-success rounded-pill">1</span></li>
+                                
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-lg-6">
+                        <div class="card mb-4 h-100">
+                            <div class="card-header">
+                                <h3 class="card-title">Custom content</h3>
+                            </div>
+                            <div class="card-body list-group">
+                                <a class="list-group-item list-group-item-action active" href="#">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <h5 class="mb-1">List group item heading</h5><small>3 days ago</small>
+                                </div>
+                                <p class="mb-1">Some placeholder content in a paragraph.</p><small>And some small print.</small></a> <a class="list-group-item list-group-item-action" href="#">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <h5 class="mb-1">List group item heading</h5><small class="text-muted">3 days ago</small>
+                                </div>
+                                <p class="mb-1">Some placeholder content in a paragraph.</p><small class="text-muted">And some muted small print.</small></a> <a class="list-group-item list-group-item-action" href="#">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <h5 class="mb-1">List group item heading</h5><small class="text-muted">3 days ago</small>
+                                </div>
+                                <p class="mb-1">Some placeholder content in a paragraph.</p><small class="text-muted">And some muted small print.</small></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-6">
+                        <div class="card mb-4 h-100">
+                            <div class="card-header">
+                                <h3 class="card-title">Checkboxes and radios</h3>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item"><input aria-label="..." class="form-check-input me-1" type="checkbox" value=""> First checkbox</li>
+                                    <li class="list-group-item"><input aria-label="..." class="form-check-input me-1" type="checkbox" value=""> Second checkbox</li>
+                                    <li class="list-group-item"><input aria-label="..." class="form-check-input me-1" type="checkbox" value=""> Third checkbox</li>
+                                    <li class="list-group-item"><input aria-label="..." class="form-check-input me-1" type="checkbox" value=""> Fourth checkbox</li>
+                                    <li class="list-group-item"><input aria-label="..." class="form-check-input me-1" type="checkbox" value=""> Fifth checkbox</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>                        
+                </div>
+			</div>
+		</div>
+	</div>
+    <footer class="text-center bg-white p-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="mb-0"> Copyright © 2023 <a href="#"></a>. Designed by <a href="#"></a> All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"> </script> <!-- bootstrap 5 js -->
+     
+    <script src="assets/plugins/bootstrap-5.0.2-dist/js/bootstrap.min.js"> </script>
+</body>
+</html>

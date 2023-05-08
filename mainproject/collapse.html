@@ -145,121 +145,95 @@
 		</nav>
 		<div class="content-section">
 			<div class="container">
-                <div class="row">
-                    <div class="col-sm-12 col-lg-6 mb-4">
+				<div class="row">
+					<div class="col-sm-12 col-lg-12">
 						<div class="card mb-4">
 							<div class="card-header">
-								<h3 class="card-title">Headings</h3>
+								<h3 class="card-title">Basic collapse</h3>
 							</div>
 							<div class="card-body">
-                        <h1>Example heading <span class="badge bg-secondary">New</span></h1>
-<h2>Example heading <span class="badge bg-secondary">New</span></h2>
-<h3>Example heading <span class="badge bg-secondary">New</span></h3>
-<h4>Example heading <span class="badge bg-secondary">New</span></h4>
-<h5>Example heading <span class="badge bg-secondary">New</span></h5>
-<h6>Example heading <span class="badge bg-secondary">New</span></h6>
-                </div>
-				</div>
-				</div>
-                  <div class="col-sm-12 col-lg-6">
-					<div class="card mb-4">
-						<div class="card-header">
-							<h3 class="card-title"></h3>
+								<p><a aria-controls="collapseExample" aria-expanded="false" class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button">Link with href</a> <button aria-controls="collapseExample" aria-expanded="false" class="btn btn-primary" data-bs-target="#collapseExample" data-bs-toggle="collapse" type="button">Button with data-bs-target</button></p>
+								<div class="collapse" id="collapseExample">
+									<div class="card card-body">
+										Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+									</div>
+								</div>
+							</div>
 						</div>
-						<div class="card-body">
-                    <button type="button" class="btn btn-primary">
-                        Notifications <span class="badge text-bg-secondary">4</span>
-                      </button>
-                  </div>
-                </div>
-				</div>
-
-                <div class="row">
-                    <div class="col-sm-12 col-lg-6">
-						<div class="card mb-4">
-							<div class="card-header">
-								<h3 class="card-title"></h3>
-							</div>
-							<div class="card-body">
-                    <button type="button" class="btn btn-primary position-relative">
-                        Inbox
-                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-                          99+
-                          <span class="visually-hidden">unread messages</span>
-                        </span>
-                      </button>
-                    </div>
 					</div>
-					</div>
-
-                <div class="col-sm-12 col-lg-6">
-					<div class="card mb-4">
-						<div class="card-header">
-							<h3 class="card-title"></h3>
-						</div>
-						<div class="card-body">
-                    <button type="button" class="btn btn-primary position-relative">
-                        Profile
-                        <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
-                          <span class="visually-hidden">New alerts</span>
-                        </span>
-                      </button>
-                </div>
-                </div>
 				</div>
-                <div class="row">
-                    <div class="col-sm-12 col-lg-6">
-						<div class="card mb-4">
-							<div class="card-header">
-								<h3 class="card-title"></h3>
-							</div>
-							<div class="card-body">
-                    <span class="badge rounded-pill text-bg-primary">Primary</span>
-                    <span class="badge rounded-pill text-bg-secondary">Secondary</span>
-                    <span class="badge rounded-pill text-bg-success">Success</span>
-                    <span class="badge rounded-pill text-bg-danger">Danger</span>
-                    <span class="badge rounded-pill text-bg-warning">Warning</span>
-                    <span class="badge rounded-pill text-bg-info">Info</span>
-                    <span class="badge rounded-pill text-bg-light">Light</span>
-                    <span class="badge rounded-pill text-bg-dark">Dark</span>
-                </div>
-				</div>
-				</div>
-                <div class="col-sm-12 col-lg-6">
-					<div class="card mb-4">
-						<div class="card-header">
-							<h3 class="card-title"></h3>
-						</div>
-						<div class="card-body">
-                    <span class="badge rounded-pill text-bg-primary">Primary</span>
-<span class="badge rounded-pill text-bg-secondary">Secondary</span>
-<span class="badge rounded-pill text-bg-success">Success</span>
-<span class="badge rounded-pill text-bg-danger">Danger</span>
-<span class="badge rounded-pill text-bg-warning">Warning</span>
-<span class="badge rounded-pill text-bg-info">Info</span>
-<span class="badge rounded-pill text-bg-light">Light</span>
-<span class="badge rounded-pill text-bg-dark">Dark</span>
-                </div>
-                </div>
-				</div>
-				</div>
-
-
-
-                <footer class="text-center bg-white p-4">
+				<div class="content-section">
 					<div class="container">
 						<div class="row">
-							<div class="col-12">
-								<p class="mb-0">Copyright © 2023 <a href="#"></a>. Designed by <a href="#"></a> All rights reserved.</p>
+							<div class="col-sm-12 col-lg-12">
+								<div class="card mb-4">
+									<div class="card-header">
+										<h3 class="card-title">Horizontal</h3>
+									</div>
+									<div class="card-body">
+										<p><button aria-controls="collapseWidthExample" aria-expanded="false" class="btn btn-primary" data-bs-target="#collapseWidthExample" data-bs-toggle="collapse" type="button">Toggle width collapse</button></p>
+										<div style="min-height: 120px;">
+											<div class="collapse collapse-horizontal" id="collapseWidthExample">
+												<div class="card card-body" style="width: 300px;">
+													This is some placeholder content for a horizontal collapse. It's hidden by default and shown when triggered.
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
-					</div>
-				</footer>
-				<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js">
-				</script> <!-- bootstrap 5 js -->
-				 
-				<script src="assets/plugins/bootstrap-5.0.2-dist/js/bootstrap.min.js">
-				</script> 
-			
+						<div class="content-section">
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-12 col-lg-12">
+										<div class="card mb-4">
+											<div class="card-header">
+												<h3 class="card-title">Multiple toggles and targets</h3>
+											</div>
+											<div class="card-body">
+												<p><a aria-controls="multiCollapseExample1" aria-expanded="false" class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button">Toggle first element</a> <button aria-controls="multiCollapseExample2" aria-expanded="false" class="btn btn-primary" data-bs-target="#multiCollapseExample2" data-bs-toggle="collapse" type="button">Toggle second element</button> <button aria-controls="multiCollapseExample1 multiCollapseExample2" aria-expanded="false" class="btn btn-primary" data-bs-target=".multi-collapse" data-bs-toggle="collapse" type="button">Toggle both elements</button></p>
+												<div class="row">
+													<div class="col">
+														<div class="collapse multi-collapse" id="multiCollapseExample1">
+															<div class="card card-body">
+																Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+															</div>
+														</div>
+													</div>
+													<div class="col">
+														<div class="collapse multi-collapse" id="multiCollapseExample2">
+															<div class="card card-body">
+																Some placeholder content for the second collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+                    </div>
+				</div>
+			</div>
+		</div>
+	</div>
+						<footer class="text-center bg-white p-4">
+							<div class="container">
+								<div class="row">
+									<div class="col-12">
+										<p class="mb-0">Copyright © 2023 <a href="#"></a>. Designed by <a href="#"></a> All rights reserved.</p>
+									</div>
+								</div>
+							</div>
+						</footer>
+						<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js">
+						</script> <!-- bootstrap 5 js -->
+						 
+						<script src="assets/plugins/bootstrap-5.0.2-dist/js/bootstrap.min.js">
+						</script> 
+					
 </body>
 </html>

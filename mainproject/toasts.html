@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- bootstrap 5 css -->
+	<link href="assets/plugins/bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet"><!-- bootstrap 5 icons -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css" rel="stylesheet">
+	<link href="assets/css/style.css" rel="stylesheet">
+	<title></title>
+</head>
+<body>
+	<div>
+		<div class="top-header">
+			<div class="container">
+				<div class="d-flex align-items-center">
+					<a class="navbar-brand" href="#"><img alt="logo img" class="logo-image" src="assets/images/logo.png"></a>
+					<div class="ms-auto d-flex">
+						<button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler ms-auto d-lg-none" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button"><i class="bi bi-list navbar-toggler-icon"></i></button>
+						<div class="search-form">
+							<form class="input-icon">
+								<div class="input-icon-addon">
+									<i class="bi bi-search-heart"></i>
+								</div><input class="form-control header-search" placeholder="Search&hellip;" tabindex="1" type="search">
+							</form>
+						</div>
+						<div class="dropdown show ms-auto">
+							<a aria-expanded="false" class="nav-link" data-bs-toggle="dropdown" href="#" role="button"><i class="bi bi-bell"></i></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a class="dropdown-item" href="#">Action</a>
+								</li>
+								<li>
+									<a class="dropdown-item" href="#">Another action</a>
+								</li>
+								<li>
+									<hr class="dropdown-divider">
+								</li>
+								<li>
+									<a class="dropdown-item" href="#">Something else here</a>
+								</li>
+							</ul>
+						</div>
+						<div class="dropdown show d-flex">
+							<a aria-expanded="false" class="nav-link" data-bs-toggle="dropdown" href="#" role="button"><i class="bi bi-chat-right-dots"></i></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a class="dropdown-item" href="#">2 new messages</a>
+								</li>
+								<li style="list-style: none; display: inline">
+									<hr>
+								</li>
+								<li>
+									<a class="dropdown-item" href="#">Action</a>
+								</li>
+								<li>
+									<a class="dropdown-item" href="#">Another action</a>
+								</li>
+								<li>
+									<hr class="dropdown-divider">
+								</li>
+								<li>
+									<a class="dropdown-item" href="#">Something else here</a>
+								</li>
+							</ul>
+						</div>
+						<div class="dropdown show d-flex">
+							<a aria-expanded="false" class="nav-link" data-bs-toggle="dropdown" href="#" role="button"><img alt="avatar" class="" src="assets/images/avatar.svg"></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a class="dropdown-item" href="#">Action</a>
+								</li>
+								<li>
+									<a class="dropdown-item" href="#">Another action</a>
+								</li>
+								<li>
+									<hr class="dropdown-divider">
+								</li>
+								<li>
+									<a class="dropdown-item" href="#">Something else here</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<nav class="navbar navbar-expand-lg navbar-light bg-white">
+			<div class="container">
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" href="#"><i class="bi bi-speedometer"></i> Dashboard</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#"><i class="bi bi-bar-chart"></i>Widgets</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a aria-expanded="false" class="nav-link" data-bs-toggle="dropdown" href="#" id="navbarDropdown" role="button"><i class="bi bi-file-earmark"></i>Pages</a>
+							<ul aria-labelledby="navbarDropdown" class="dropdown-menu">
+								<li>
+									<a class="dropdown-item" href="#">Action</a>
+								</li>
+								<li>
+									<a class="dropdown-item" href="#">Another action</a>
+								</li>
+								<li>
+									<hr class="dropdown-divider">
+								</li>
+								<li>
+									<a class="dropdown-item" href="#">Something else here</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#"><i class="bi bi-box"></i>Components</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#"><i class="bi bi-front"></i>Elements</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#"><i class="bi bi-graph-up-arrow"></i>Charts</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a aria-expanded="false" class="nav-link" data-bs-toggle="dropdown" href="#" id="navbarDropdown" role="button"><i class="bi bi-pencil-square"></i> Forms</a>
+							<ul aria-labelledby="navbarDropdown" class="dropdown-menu">
+								<li>
+									<a class="dropdown-item" href="#">Action</a>
+								</li>
+								<li>
+									<a class="dropdown-item" href="#">Another action</a>
+								</li>
+								<li>
+									<hr class="dropdown-divider">
+								</li>
+								<li>
+									<a class="dropdown-item" href="#">Something else here</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#"><i class="bi bi-globe"></i> Icons</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="content-section">
+			<div class="container">
+<div class="row">
+    <div class="col-sm-12 col-lg-12">
+        <div class="card mb-4">
+            <div class="card-header">
+                <h3 class="card-title">Basic toasts</h3>
+            </div>
+            <div class="card-body">
+                <div class="toast fade show" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="toast-header">
+                      <img src="..." class="rounded me-2" alt="...">
+                      <strong class="me-auto">Bootstrap</strong>
+                      <small>11 mins ago</small>
+                      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                    </div>
+                    <div class="toast-body">
+                      Hello, world! This is a toast message.
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-12 col-lg-12">
+        <div class="card mb-4">
+            <div class="card-header">
+                <h3 class="card-title">Live toasts</h3>
+            </div>
+            <div class="card-body">
+                <button type="button" class="btn btn-primary" id="liveToastBtn">Show live toast</button>
+
+<div class="toast-container  position-fixed bottom-0 end-0 p-3">
+  <div id="liveToast" class="toast fade show" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+      <img src="..." class="rounded me-2" alt="...">
+      <strong class="me-auto">Bootstrap</strong>
+      <small>11 mins ago</small>
+      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+    <div class="toast-body">
+      Hello, world! This is a toast message.
+    </div>
+  </div>
+</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-12 col-lg-12">
+        <div class="card mb-4">
+            <div class="card-header">
+                <h3 class="card-title">Translucent</h3>
+            </div>
+            <div class="card-body">
+                <div class="toast fade show" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="toast-header">
+                      <img src="..." class="rounded me-2" alt="...">
+                      <strong class="me-auto">Bootstrap</strong>
+                      <small class="text-body-secondary">11 mins ago</small>
+                      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                    </div>
+                    <div class="toast-body">
+                      Hello, world! This is a toast message.
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-12 col-lg-12">
+        <div class="card mb-4">
+            <div class="card-header">
+                <h3 class="card-title">Stacking</h3>
+            </div>
+            <div class="card-body">
+                <div class="toast-container position-static">
+                    <div class="toast fade show" role="alert" aria-live="assertive" aria-atomic="true">
+                      <div class="toast-header">
+                        <img src="..." class="rounded me-2" alt="...">
+                        <strong class="me-auto">Bootstrap</strong>
+                        <small class="text-body-secondary">just now</small>
+                        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                      </div>
+                      <div class="toast-body">
+                        See? Just like this.
+                      </div>
+                    </div>
+                  
+                    <div class="toast fade show" role="alert" aria-live="assertive" aria-atomic="true">
+                      <div class="toast-header">
+                        <img src="..." class="rounded me-2" alt="...">
+                        <strong class="me-auto">Bootstrap</strong>
+                        <small class="text-body-secondary">2 seconds ago</small>
+                        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                      </div>
+                      <div class="toast-body">
+                        Heads up, toasts will stack automatically
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-12 col-lg-12">
+        <div class="card mb-4">
+            <div class="card-header">
+                <h3 class="card-title">Custom content </h3>
+            </div>
+            <div class="card-body">
+                <div class="toast fade show" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="toast-body">
+                      Hello, world! This is a toast message.
+                      <div class="mt-2 pt-2 border-top">
+                        <button type="button" class="btn btn-primary btn-sm">Take action</button>
+                        <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="toast">Close</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-12 col-lg-12">
+        <div class="card mb-4">
+            <div class="card-header">
+                <h3 class="card-title">Color schemes</h3>
+            </div>
+            <div class="card-body">
+                <div class="toast fade show align-items-center border-0" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="d-flex">
+                      <div class="toast-body bg-primary">
+                        Hello, world! This is a toast message.
+                      </div>
+                      <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+                    </div>
+                  </div>
+                  <div class="toast align-items-center  border-0" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="d-flex">
+                      <div class="toast-body">
+                        Hello, world! This is a toast message.
+                      </div>
+                      <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+                    </div>
+                  </div>
+                  <div class="toast align-items-center border-0" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="d-flex">
+                      <div class="toast-body">
+                        Hello, world! This is a toast message.
+                      </div>
+                      <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-12 col-lg-12">
+        <div class="card mb-4">
+            <div class="card-header">
+                <h3 class="card-title">Placement </h3>
+            </div>
+            <div class="card-body">
+                <form>
+                    <div class="mb-3">
+                      <label for="selectToastPlacement">Toast placement</label>
+                      <select class="form-select mt-2" id="selectToastPlacement">
+                        <option value="" selected>Select a position...</option>
+                        <option value="top-0 start-0">Top left</option>
+                        <option value="top-0 start-50 translate-middle-x">Top center</option>
+                        <option value="top-0 end-0">Top right</option>
+                        <option value="top-50 start-0 translate-middle-y">Middle left</option>
+                        <option value="top-50 start-50 translate-middle">Middle center</option>
+                        <option value="top-50 end-0 translate-middle-y">Middle right</option>
+                        <option value="bottom-0 start-0">Bottom left</option>
+                        <option value="bottom-0 start-50 translate-middle-x">Bottom center</option>
+                        <option value="bottom-0 end-0">Bottom right</option>
+                      </select>
+                    </div>
+                  </form>
+                  <div aria-live="polite" aria-atomic="true" class="bg-body-secondary position-relative bd-example-toasts rounded-3">
+                    <div class="toast-container p-3" id="toastPlacement">
+                      <div class="toast fade show">
+                        <div class="toast-header">
+                          <img src="..." class="rounded me-2" alt="...">
+                          <strong class="me-auto">Bootstrap</strong>
+                          <small>11 mins ago</small>
+                        </div>
+                        <div class="toast-body">
+                          Hello, world! This is a toast message.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+<div class="row">
+    <div class="col-sm-12 col-lg-12">
+        <div class="card mb-4">
+            <div class="card-header">
+                <h3 class="card-title">Accessibility </h3>
+            </div>
+            <div class="card-body">
+                <div class="toast" role="alert" aria-live="polite" aria-atomic="true" data-bs-delay="10000">
+                    <div role="alert" aria-live="assertive" aria-atomic="true">...</div>
+                  </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</div>
+</div>
+
+<footer class="text-center bg-white p-4">
+<div class="container">
+<div class="row">
+    <div class="col-12">
+        <p class="mb-0">Copyright © 2023 <a href="#"></a>. Designed by <a href="#"></a> All rights reserved.</p>
+    </div>
+</div>
+</div>
+</footer>
+<scripts>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js">
+</script> <!-- bootstrap 5 js -->
+
+<script src="assets/plugins/bootstrap-5.0.2-dist/js/bootstrap.min.js">
+</script> 
+<script src="assets/js/style.js"></script>
+</scripts>
+
+</body>
+</html>

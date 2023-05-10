@@ -185,3 +185,31 @@ border-radius: 50%;
         border-color: var(--bg-light);
         padding: 0.5rem 1rem;
     }
+
+/* Accordion */
+.accordion-button:not(.collapsed){
+    color: var(--primary-color);
+    background-color: rgba(var(--rgb-primary-color), 0.075);
+    box-shadow: none;
+}
+.accordion-button, .accordion-body{
+    padding: 1.5rem 2.5rem;
+}
+.accordion-item{
+    border-color: var(--border-color);
+}
+
+/* alerts */
+img, svg {
+    height: 3em;
+}
+
+/* progress */
+.progress {
+    padding: 5px;
+    height: 2rem;
+    background-color:var(--light-color);
+}
+.progress-stacked{
+    display: flex;
+}

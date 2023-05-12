@@ -149,85 +149,89 @@
 					<div class="col-sm-12 col-lg-12">
 						<div class="card mb-4">
 							<div class="card-header">
-								<h3 class="card-title">Basic collapse</h3>
+								<h3 class="card-title">Basic popover</h3>
 							</div>
 							<div class="card-body">
-								<p><a aria-controls="collapseExample" aria-expanded="false" class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button">Link with href</a> <button aria-controls="collapseExample" aria-expanded="false" class="btn btn-primary" data-bs-target="#collapseExample" data-bs-toggle="collapse" type="button">Button with data-bs-target</button></p>
-								<div class="collapse" id="collapseExample">
-									<div class="card card-body">
-										Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-									</div>
-								</div>
-							</div>
-						</div>
-					
-						<div class="row">
-							<div class="col-sm-12 col-lg-12">
-								<div class="card mb-4">
-									<div class="card-header">
-										<h3 class="card-title">Horizontal</h3>
-									</div>
-									<div class="card-body">
-										<p><button aria-controls="collapseWidthExample" aria-expanded="false" class="btn btn-primary" data-bs-target="#collapseWidthExample" data-bs-toggle="collapse" type="button">Toggle width collapse</button></p>
-										<div style="min-height: 120px;">
-											<div class="collapse collapse-horizontal" id="collapseWidthExample">
-												<div class="card card-body" style="width: 300px;">
-													This is some placeholder content for a horizontal collapse. It's hidden by default and shown when triggered.
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-						
-								<div class="row">
-									<div class="col-sm-12 col-lg-12">
-										<div class="card mb-4">
-											<div class="card-header">
-												<h3 class="card-title">Multiple toggles and targets</h3>
-											</div>
-											<div class="card-body">
-												<p><a aria-controls="multiCollapseExample1" aria-expanded="false" class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button">Toggle first element</a> <button aria-controls="multiCollapseExample2" aria-expanded="false" class="btn btn-primary" data-bs-target="#multiCollapseExample2" data-bs-toggle="collapse" type="button">Toggle second element</button> <button aria-controls="multiCollapseExample1 multiCollapseExample2" aria-expanded="false" class="btn btn-primary" data-bs-target=".multi-collapse" data-bs-toggle="collapse" type="button">Toggle both elements</button></p>
-												<div class="row">
-													<div class="col">
-														<div class="collapse multi-collapse" id="multiCollapseExample1">
-															<div class="card card-body">
-																Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
-															</div>
-														</div>
-													</div>
-													<div class="col">
-														<div class="collapse multi-collapse" id="multiCollapseExample2">
-															<div class="card card-body">
-																Some placeholder content for the second collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+                                <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
+                            </div>
+                        </div>
                     </div>
-				</div>
-			</div>
-		</div>
-	</div>
-						<footer class="text-center bg-white p-4">
-							<div class="container">
-								<div class="row">
-									<div class="col-12">
-										<p class="mb-0">Copyright © 2023 <a href="#"></a>. Designed by <a href="#"></a> All rights reserved.</p>
-									</div>
-								</div>
+                </div>
+                <div class="row">
+					<div class="col-sm-12 col-lg-12">
+						<div class="card mb-4">
+							<div class="card-header">
+								<h3 class="card-title">Four directions</h3>
 							</div>
-						</footer>
-						<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js">
-						</script> <!-- bootstrap 5 js -->
-						 
-						<script src="assets/plugins/bootstrap-5.0.2-dist/js/bootstrap.min.js">
-						</script> 
-					
+							<div class="card-body">
+                                <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Top popover">
+                                    Popover on top
+                                  </button>
+                                  <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Right popover">
+                                    Popover on right
+                                  </button>
+                                  <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Bottom popover">
+                                    Popover on bottom
+                                  </button>
+                                  <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Left popover">
+                                    Popover on left
+                                  </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+					<div class="col-sm-12 col-lg-12">
+						<div class="card mb-4">
+							<div class="card-header">
+								<h3 class="card-title">Custom popovers</h3>
+							</div>
+							<div class="card-body">
+                                <button type="button" class="btn btn-secondary"
+        data-bs-toggle="popover" data-bs-placement="right"
+        data-bs-custom-class="custom-popover"
+        data-bs-title="Custom popover"
+        data-bs-content="This popover is themed via CSS variables.">
+  Custom popover
+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+					<div class="col-sm-12 col-lg-12">
+						<div class="card mb-4">
+							<div class="card-header">
+								<h3 class="card-title">Dismiss on next click</h3>
+							</div>
+							<div class="card-body">
+                                <a tabindex="0" class="btn btn-lg btn-danger" role="button" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-title="Dismissible popover" data-bs-content="And here's some amazing content. It's very engaging. Right?">Dismissible popover</a>
+    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+<footer class="text-center bg-white p-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <p class="mb-0">Copyright © 2023 <a href="#"></a>. Designed by <a href="#"></a> All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js">
+</script> <!-- bootstrap 5 js -->
+ 
+<script src="assets/plugins/bootstrap-5.0.2-dist/js/bootstrap.min.js">
+</script>
+<script src="assets/js/style.js"></script>
 </body>
 </html>

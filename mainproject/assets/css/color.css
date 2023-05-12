@@ -209,6 +209,44 @@
     box-shadow: 0 0 0 0.25rem rgba(var(--rgb-dark-color),.5);
 }
 
+.btn-outline-primary {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-outline-secondary {
+    color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+.btn-outline-info {
+    color: var(--info-color);
+    border-color: var(--info-color);
+}
+
+.btn-outline-danger {
+    color: var(--danger-color);
+    border-color: var(--danger-color);
+}
+
+.btn-outline-light {
+    color: var(--gray-800);
+    border-color: var(--gray-800);
+}
+.btn-outline-dark {
+    color: var(--dark-color);
+    border-color: var(--dark-color);
+}
+.btn-outline-warning {
+    color: var(--warning-color);
+    border-color: var(--warning-color);
+}
+.btn-outline-success {
+    color: var(--success-color);
+    border-color: var(--success-color);
+}
+
+
 /* Alerts */
 .alert-primary{
     background-color: var(--primary-color);
@@ -242,3 +280,62 @@
     color: var(--white-color);
 
 }
+
+/* badge */
+.text-bg-primary{
+    background-color: var(--primary-color);
+    border:1px solid var(--primary-color);
+    color: var(--white-color);
+}
+.text-bg-secondary{
+    background-color: var(--secondary-color);
+    border:1px solid var(--secondary-color);
+    color: var(--white-color);
+}
+.text-bg-success{
+    background-color: var(--success-color);
+    border:1px solid var(--success-color);
+    color: var(--white-color);
+}
+.text-bg-info{
+    background-color: var(--info-color);
+    border:1px solid var(--info-color);
+    color: var(--white-color);
+}
+.text-bg-warning{
+    background-color: var(--warning-color);
+    border:1px solid var(--warning-color);
+    color: var(--white-color);
+}
+
+.text-bg-danger {
+    background-color: var(--danger-color);
+    border:1px solid var(--danger-color);
+    color: var(--white-color);
+
+}
+.text-bg-light{
+    color: var(--gray-800);
+    background-color: var(--gray-100);
+    border-color:var(--gray-100);
+
+}
+.text-bg-dark{
+    color: var(--white-color);
+    background-color: var(--dark-color);
+    border-color: var(--dark-color);
+
+}
+
+/* forms */
+.form-control.is-invalid{
+    border-color: var(--danger-color);
+}
+.form-control.is-valid{
+    border-color: var(--success-color);
+}
+
+.form-check-input:invalid~.form-check-label {
+    color: var(--danger-color);
+}
+

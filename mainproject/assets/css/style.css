@@ -213,3 +213,22 @@ img, svg {
 .progress-stacked{
     display: flex;
 }
+
+/* forms */
+.btn-check:checked+.btn-outline-success{
+    color: var(--white-color);
+    background-color: var(--s);
+}
+.form-control.is-invalid{
+    border-color: var(--danger-color);
+}
+.form-control.is-valid{
+    border-color: var(--success-color);
+}
+
+.was-validated .form-check-input:invalid~.form-check-label {
+    color:var(--danger-color);
+}
+.invalid-feedback{
+    color: var(--danger-color);
+} 

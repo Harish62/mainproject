@@ -200,7 +200,7 @@ border-radius: 50%;
 }
 
 /* alerts */
-img, svg {
+.alert img, svg {
     height: 3em;
 }
 

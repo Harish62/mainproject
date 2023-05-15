@@ -4,14 +4,14 @@
     --white-color:#ffffff;    
     --dark-color:#000000;   
     --text-default:#001A43; 
-    --primary-color:#4c78da;
+    --primary-color:#4c78da; 
     --secondary-color:#8C92AC;
     --warning-color:#FFA07A;
     --danger-color: #F28B7C;
     --info-color: #63D1C4;
     --success-color:#66BD50;
     --blue-color:#87CEEB;
-    --light-color:#ebeef2;
+    --light-color:#f6f7f9;
     --bg-light:#f6f7f9;
     --border-color:#f6f7f9;
     --code-error:#570000;
@@ -39,7 +39,7 @@
     --rgb-white-colo: 255, 255, 255;
     --rgb-dark-color:0, 0, 0;
     --rgb-text-default:0, 25, 66; 
-    --rgb-primary-color:34, 139, 34;
+    --rgb-primary-color:76, 120, 218;
     --rgb-secondary-color:140, 146, 172;
     --rgb-warning-color:255, 160, 122;
     --rgb-danger-color:242, 139, 124;

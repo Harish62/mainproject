@@ -2,11 +2,11 @@
 @import url(color.css);
 @import url(utilities.css);
 /* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap');
 
 body{
     background-color: var(--light-color);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
     color: var(--dark-color);
 }
 /* Top Header */
@@ -200,7 +200,7 @@ border-radius: 50%;
 }
 
 /* alerts */
-.alert img, svg {
+.alert img {
     height: 3em;
 }
 
@@ -232,7 +232,24 @@ border-radius: 50%;
 .invalid-feedback{
     color: var(--danger-color);
 } 
-/* toasts */
-.me-2 {
-    height: 3em;
+.stats-card.bg-primary-light{
+    box-shadow: 0.5rem 1rem 0px rgba(var(--rgb-primary-color), 0.17);
+}
+.stats-card.bg-secondary-light{
+    box-shadow: 0.5rem 1rem 0px rgba(var(--rgb-secondary-color), 0.17);
+}
+.stats-card.bg-success-light{
+    box-shadow: 0.5rem 1rem 0px rgba(var(--rgb-success-color), 0.17);
+}
+.stats-card.bg-warning-light{
+    box-shadow: 0.5rem 1rem 0px rgba(var(--rgb-warning-color), 0.17);
+}
+/* dashboard */
+.log img{
+    height: 1em;
+    padding-right: 0.4em;
+}
+.stats .progress {
+    height: 0.5rem;
+    padding: 0px;
 }

@@ -59,10 +59,10 @@
       },
       
       legend: {
-        show: true,
+        show: false,
         showForSingleSeries: false,
-        showForNullSeries: true,
-        showForZeroSeries: true,
+        showForNullSeries: false,
+        showForZeroSeries: false,
         position: 'bottom',
         horizontalAlign: 'center', 
         floating: false,

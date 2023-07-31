@@ -262,3 +262,51 @@ border-radius: 50%;
     border-right: 0px;
     border-color: var(--border-color)!important;
 }
+
+
+/* calendar */
+
+#external-events {
+    position: absolute;
+    z-index: 1;
+    top: 300px;
+    left: 40px;
+    width: 190px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    background: var(--bg-light);
+    border-color: var(--border-color);
+}
+
+  /* .demo-topbar + #external-events { 
+    top: 60px;
+  } */
+
+  #external-events .fc-event {
+    cursor:move;
+    margin: 3px 0;
+  }
+
+  #calendar-container {
+    position: relative;
+    z-index: 1;
+    margin-left: 200px;
+  }
+
+  #calendar {
+    max-width: 1100px;
+    margin: 20px auto;
+  }
+
+  .fc .fc-button-primary:disabled {
+    background-color: var(--bs-dark);
+    border-color: var(--bs-dark);
+    color: var(--bg-light);
+}
+.fc .fc-button-primary {
+    background-color: var(--bs-dark);
+    border-color: var(--bs-dark);
+    color: var(--bg-light);
+}
+
+/* datatable */
